@@ -1,9 +1,9 @@
 # Very short description of the package
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/osonsms/smsgateway.svg?style=flat-square)](https://packagist.org/packages/osonsms/smsgateway)
-[![Build Status](https://img.shields.io/travis/osonsms/smsgateway/master.svg?style=flat-square)](https://travis-ci.org/osonsms/smsgateway)
-[![Quality Score](https://img.shields.io/scrutinizer/g/osonsms/smsgateway.svg?style=flat-square)](https://scrutinizer-ci.com/g/osonsms/smsgateway)
-[![Total Downloads](https://img.shields.io/packagist/dt/osonsms/smsgateway.svg?style=flat-square)](https://packagist.org/packages/osonsms/smsgateway)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/osonsms/smsgateway.svg?style=flat-square)](https://packagist.org/packages/rio/osonsms-gateway)
+[![Build Status](https://img.shields.io/travis/rio/osonsms-gateway/master.svg?style=flat-square)](https://travis-ci.org/rio/osonsms-gateway)
+[![Quality Score](https://img.shields.io/scrutinizer/g/rio/osonsms-gateway.svg?style=flat-square)](https://scrutinizer-ci.com/g/rio/osonsms-gateway)
+[![Total Downloads](https://img.shields.io/packagist/dt/rio/osonsms-gateway.svg?style=flat-square)](https://packagist.org/packages/rio/osonsms-gateway)
 
 This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what PSRs you support to avoid any confusion with users and contributors.
 
@@ -12,7 +12,7 @@ This is where your description should go. Try and limit it to a paragraph or two
 You can install the package via composer:
 
 ```bash
-composer require osonsms/gateway
+composer require rio/osonsms-gateway
 ```
 ## Usage
 
@@ -34,7 +34,7 @@ Open config/smsgateway.php config file and specify following parameters:
 You can send SMS in your Laravel code using folowing code:
 ```
 $txn_id = uniqid();
-$result = SMSGateway::Send('927777777', 'This is my test message from Laravel!', $txn_id);
+$result = SMSGateway::Send('xxxxxxxxx', 'This is my test message from Laravel!', $txn_id);
 if ($result)
     echo "SMS has been sent succesfully";
 else
@@ -61,7 +61,7 @@ If you discover any security related issues, please email i@bakhtiyor.tj instead
 
 ## Credits
 
-- [Bakhtiyor Bahritidinov](https://github.com/osonsms)
+- [Rasul Safarovitch](https://github.com/safarovitch)
 - [All Contributors](../../contributors)
 
 ## License
