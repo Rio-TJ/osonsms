@@ -1,11 +1,7 @@
-# Very short description of the package
-
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/osonsms/smsgateway.svg?style=flat-square)](https://packagist.org/packages/rio/osonsms-gateway)
 [![Build Status](https://img.shields.io/travis/rio/osonsms-gateway/master.svg?style=flat-square)](https://travis-ci.org/rio/osonsms-gateway)
 [![Quality Score](https://img.shields.io/scrutinizer/g/rio/osonsms-gateway.svg?style=flat-square)](https://scrutinizer-ci.com/g/rio/osonsms-gateway)
 [![Total Downloads](https://img.shields.io/packagist/dt/rio/osonsms-gateway.svg?style=flat-square)](https://packagist.org/packages/rio/osonsms-gateway)
-
-This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what PSRs you support to avoid any confusion with users and contributors.
 
 ## Installation
 
