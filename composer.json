@@ -1,11 +1,11 @@
 {
-    "name": "osonsms/smsgateway",
+    "name": "rio/osonsms-gateway",
     "description": "A simple library for sending SMS via OsonSMS API.",
     "keywords": [
         "osonsms",
-        "smsgateway"
+        "osonsms-gateway"
     ],
-    "homepage": "https://github.com/Rio-TJ/osonsms",
+    "homepage": "https://github.com/Rio-TJ/osonsms-gateway",
     "license": "MIT",
     "type": "library",
     "authors": [
