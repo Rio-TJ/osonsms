@@ -45,7 +45,7 @@ You can find the logs of your SMS in the table called ```osonsms_log```.
 
 To check your balance use following code ```SMSGateway::getBalance()``` which returns a decimal number, indicating your balance in Somoni.
 
-If you have any further questions or recommendations, feel free to send us an email at info@osonsms.com. 
+If you have any further questions or recommendations, feel free to send us an email at info@rio.tj.
 
 ### Changelog
 
@@ -57,7 +57,7 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ### Security
 
-If you discover any security related issues, please email i@bakhtiyor.tj instead of using the issue tracker.
+If you discover any security related issues, please email info@rio.tj instead of using the issue tracker.
 
 ## Credits
 
