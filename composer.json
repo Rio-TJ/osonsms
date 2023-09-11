@@ -1,5 +1,5 @@
 {
-    "name": "rio/osonsms-gateway",
+    "name": "riotj/osonsms-gateway",
     "description": "A simple library for sending SMS via OsonSMS API.",
     "keywords": [
         "osonsms",
